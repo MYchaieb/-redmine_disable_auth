@@ -1,0 +1,4 @@
+# English strings go here for Rails i18n
+en:
+  field_disable_auth: "Disable authentification"
+  # my_label: "My label"

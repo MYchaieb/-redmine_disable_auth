@@ -1,0 +1,4 @@
+# English strings go here for Rails i18n
+fr:
+  field_disable_auth: "Désactiver l'autentification pour ce projet"
+  # my_label: "My label"
