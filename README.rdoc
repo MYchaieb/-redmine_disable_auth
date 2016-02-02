@@ -1,13 +1,2 @@
 = Redmine Disable Auth for project
-
-Plugin allow who have the permission to configure , to disable authentification to a project. 
-
-== Installation 
-
-cd {redmine_root}/plugin 
-
-clone this repo 
-
-rake redmine:plugins:migrate RAILS_ENV=production 
-
-restart your server 
+Under construction 
