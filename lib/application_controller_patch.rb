@@ -30,7 +30,11 @@ module ApplicationPatch
 		end
 
 		def check_if_auth_disabled
-			@project = find_the_project
+			@project = nil
+			begin
+				@project = find_the_project
+			rescue
+			end
 			if @project != nil && @project.disable_auth && !@project.archived?
 				return true
 			else
@@ -40,7 +44,11 @@ module ApplicationPatch
 
 		def check_if_auth_dis_for_login 
 
-			@project = find_the_project
+			@project = nil
+			begin
+				@project = find_the_project
+			rescue
+			end
 			
 			if @project != nil && @project.disable_auth
 				return false
